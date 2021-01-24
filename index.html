@@ -9,33 +9,47 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
 </head>
 
+
+
+
+
+
+
+
+
+
+
+
 <body>
     <h1 class="text-center m-12 uppercase font-bold text-2xl text-blue-800">Cooper's Golf Store</h1>
     
-    <div class="px-16 md:flex items-center bg-gray-100"></div>
-        <div class="md:w-1/2">
-            <img class="rounded" src="https://www.thengfq.com/site/wp-content/uploads/2020/05/edwin-watts-store-front.jpg">
+    <div class="px-16 md:flex items-center bg-gray-200">
+        <div class="md:w-1/2 m-auto md:p-16">
+            <img class="rounded-3xl" src="https://www.thengfq.com/site/wp-content/uploads/2020/05/edwin-watts-store-front.jpg">
+        </div>
+        <div class="md:w-1/2 p-8 space-y-4">
+            <h2 class="font-bold underline text-x1"> We Sell Golf Clubs and Accesories!</h2>
+            
+            <p>Looking for Golf Clubs, please visit our <a href="page2.html"> Golf Clubs</a> page.</p>   
+            
 
-        </div><h2>We Sell Golf Clubs and Accesories!</h2></p>
-    
-    <div<p><em> We do not sell apparel!</em> 
-    <p>Looking for Golf Clubs, please visit our <a href="page2.html">Golf Clubs</a> page.</p>
-    <p> We Sell the following brands of Golf Clubs:
-        <ul>
-            <li>Titleist</li>
-            <li>Callaway </li>
-        </ul>
-    </p>
-    
-    <p> Looking for Accesories, please visit our <a href="page3.html">Accessories</a> page.</p>
-    We Sell the following types of Accessories:
-    <ul>
-        <li> Head Covers</li>
-        <li> Tees</li>
-    </ul>
-    
-    
-        If you would like apparel go to <a href="https://bonobos.com/shop/sports-golf">Bonobos</a>. 
-        </p>
-    </body>
-    </html>
+            <p>Looking for Accesories, please visit our <a href="page3.html">Accessories</a> page.</p>
+        </div>
+    </div>
+
+    <div class="m-8">
+    <h1 class="text-1xl font-bold text-left">Join Our Mailing List</h1>
+
+    <form netlify class="mx-auto mt-4">
+        <label class="block mt-4 font-bold" for="name">What is Your Name?</label>
+        <input class="p-2 w-64 border border-gray-400 rounded shadow-x1 focus:outline-none focus:ring-bluek-500 focus:border-blue-500" type="text" id="name" name="name">
+
+        <label class="blcok mt-4 font-bold" for="email address">What is your email address?</label>
+        <input class="p-2 w-64 border border-gray-400 rounded shadow-x1 focus:outline-none focus:ring-bluek-500 focus:border-blue-500" type="text" id="email address" name="email address">
+
+        <button class="block mt-4 text-white bg-gray-400 rounded px-4 py-2">Submit Form!</button>
+    </form>
+    </div>
+</body>
+
+</html>
